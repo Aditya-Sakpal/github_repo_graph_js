@@ -1,0 +1,16 @@
+{
+  "name": "github_repo_graph",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "ingest:js": "node ingest_js.mjs"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.25.0",
+    "@babel/traverse": "^7.25.0",
+    "dotenv": "^16.4.5",
+    "fast-glob": "^3.3.2",
+    "neo4j-driver": "^5.22.0"
+  }
+}
